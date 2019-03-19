@@ -6,9 +6,6 @@ function addElementToBeginingOfArray(array, element) {
 }
 
 function destructivelyAddElementToBeginingOfArray(array, element) {
-  array.unshift(element)
+  array.unshift(element);
   return array;
 }
-
-console.log(addElementToBeginingOfArray(chocolateBars, "test"));
-console.log(chocolateBars);
