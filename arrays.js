@@ -5,5 +5,10 @@ function addElementToBeginingOfArray(array, element) {
   return newArray;
 }
 
+function destructivelyAddElementToBeginingOfArray(array, element) {
+  array.unshift(element)
+  return array;
+}
+
 console.log(addElementToBeginingOfArray(chocolateBars, "test"));
 console.log(chocolateBars);
